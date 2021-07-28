@@ -1,5 +1,7 @@
 import './Toolbar.css'
 
+import PropTypes from 'prop-types';
+
 export default function Toolbar({filters, selected, onSelectFilter}) {
     return (
         <div className='Portfolio-toolbar'>
@@ -12,4 +14,10 @@ export default function Toolbar({filters, selected, onSelectFilter}) {
             })}
         </div>
     )
+}
+
+Toolbar.propTypes = {
+    filters: PropTypes.array,
+    selected: PropTypes.string,
+    onSelectFilter: PropTypes.func,
 }

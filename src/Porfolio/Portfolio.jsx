@@ -1,5 +1,7 @@
 import { useState } from 'react';
 
+import PropTypes from 'prop-types';
+
 import './Portfolio.css';
 
 import Toolbar from './Toolbar/Toolbar';
@@ -28,4 +30,9 @@ export function Portfolio({filters, projects}) {
             <Projects projects={images} />
         </div>
     )
+}
+
+Portfolio.protoTypes = {
+    filter: PropTypes.array,
+    projects: PropTypes.array,
 }
