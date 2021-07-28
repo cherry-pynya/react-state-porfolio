@@ -1,6 +1,6 @@
 import { Portfolio } from './Porfolio/Portfolio';
 
-const filters = ['All', 'Websites', 'Flayers', 'Bussiness Cards'];
+const filters = ['All', 'Websites', 'Flayers', 'Business Cards'];
 const projects = [{
   img: "https://raw.githubusercontent.com/netology-code/ra16-homeworks/master/events-state/filter/img/mon.jpg",
   category: "Business Cards"
@@ -53,7 +53,6 @@ const projects = [{
   img: "https://raw.githubusercontent.com/netology-code/ra16-homeworks/master/events-state/filter/img/place200x290_3.png",
   category: "Flayers"
 }]
-
 
 function App() {
   return (
