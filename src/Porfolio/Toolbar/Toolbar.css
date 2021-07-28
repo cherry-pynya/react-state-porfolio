@@ -1,0 +1,13 @@
+.Portfolio-toolbar-btn {
+  height: 40px;
+  min-width: 60px;
+  border: 1px solid black;
+  margin-right: 3px;
+  background: transparent;
+}
+
+.checked {
+  background-color: black;
+  color: aliceblue;
+}
+

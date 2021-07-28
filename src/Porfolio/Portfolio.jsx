@@ -1,7 +1,7 @@
 import Toolbar from './Toolbar/Toolbar';
+import Projects from './Projects/Projects';
 
 export function Portfolio({filters, projects}) {
-    console.log(filters, projects)
     return (
         <div className='Portfolio'>
             <Toolbar 
@@ -9,6 +9,7 @@ export function Portfolio({filters, projects}) {
                 selected = 'All'
                 onSelectFilter={(filter) => {console.log(filter)}}
             />
+            <Projects projects={projects} />
         </div>
     )
 }
